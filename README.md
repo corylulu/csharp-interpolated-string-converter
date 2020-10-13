@@ -11,5 +11,3 @@ Autocorrect from normal strings to interpolated strings (`$"Hello {world}"`) wit
 ## Extension Settings
 
 * `template-string-converter.enable`: enable/disable this extension
-* `template-string-converter.validLanguages`: an array of valid languages to run the extension on
-* `template-string-converter.quoteType`: both, single, or double 

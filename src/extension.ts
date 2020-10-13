@@ -1,14 +1,11 @@
 import * as vscode from "vscode";
 
 type QuoteChar = `$"` | `"`;
-type QuoteType = "single" |"double" | "both";
 
 export function activate(context: vscode.ExtensionContext) {
   vscode.workspace.onDidChangeTextDocument(async (e) => {
     let configuration = vscode.workspace.getConfiguration();
-    let quoteType = configuration.get<QuoteType>(
-      "template-string-converter.quoteType"
-    );
+
     let enabled = configuration.get<{}>("template-string-converter.enabled");
     let changes = e.contentChanges[0];
     let validLanguages = configuration.get<string[]>(
@@ -16,7 +13,6 @@ export function activate(context: vscode.ExtensionContext) {
     );
     if (
       enabled &&
-      quoteType &&
       changes &&
       validLanguages?.includes(e.document.languageId)
     ) {
