@@ -1,4 +1,4 @@
-# CSharp Interpolated String Converter
+# C# Interpolated String Converter
 
 This [extension](https://marketplace.visualstudio.com/items?itemName=corylulu.csharp-interpolated-string-converter) prepends a `$` to a string when a $ and { are entered within quotes in CSharp files (and removes the typed `$`).
 
