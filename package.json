@@ -2,7 +2,7 @@
   "name": "csharp-interpolated-string-converter",
   "displayName": "Csharp Interpolated String Converter",
   "description": "Prepends a `$` to a string when a $ and { are entered within quotes in CSharp files (and removes the typed `$`)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.49.0"
   },
