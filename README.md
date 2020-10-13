@@ -10,4 +10,4 @@ Autocorrect from normal strings to interpolated strings (`$"Hello {world}"`) wit
 
 ## Extension Settings
 
-* `template-string-converter.enable`: enable/disable this extension
+* `csharp-interpolated-string-converter.enable`: enable/disable this extension

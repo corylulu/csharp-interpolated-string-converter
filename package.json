@@ -2,7 +2,7 @@
   "name": "csharp-interpolated-string-converter",
   "displayName": "C# Interpolated String Converter",
   "description": "Prepends a `$` to a string when a $ and { are entered within quotes in CSharp files (and removes the typed `$`)",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "engines": {
     "vscode": "^1.49.0"
   },
@@ -27,12 +27,12 @@
       {
         "title": "Csharp Interpolated String Converter",
         "properties": {
-          "template-string-converter.enabled": {
+          "csharp-interpolated-string-converter.enabled": {
             "type": "boolean",
             "description": "extension is enabled",
             "default": true
           },
-          "template-string-converter.validLanguages": {
+          "csharp-interpolated-string-converter.validLanguages": {
             "type": "array",
             "description": "extension runs on these languages",
             "default": [

@@ -6,10 +6,10 @@ export function activate(context: vscode.ExtensionContext) {
   vscode.workspace.onDidChangeTextDocument(async (e) => {
     let configuration = vscode.workspace.getConfiguration();
 
-    let enabled = configuration.get<{}>("template-string-converter.enabled");
+    let enabled = configuration.get<{}>("csharp-interpolated-string-converter.enabled");
     let changes = e.contentChanges[0];
     let validLanguages = configuration.get<string[]>(
-      "template-string-converter.validLanguages"
+      "csharp-interpolated-string-converter.validLanguages"
     );
     if (
       enabled &&
