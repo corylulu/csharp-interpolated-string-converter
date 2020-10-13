@@ -1,11 +1,11 @@
-# Template String Converter
+# CSharp Interpolated String Converter
 
-This [extension](https://marketplace.visualstudio.com/items?itemName=meganrogge.template-string-converter)  addresses this [request](https://github.com/microsoft/vscode/issues/56704) to convert Javascript/Typescript quotes to backticks when `${` has been entered within a string.
+This [extension](https://marketplace.visualstudio.com/items?itemName=corylulu.csharp-interpolated-string-converter) prepends a `$` to a string when a $ and { are entered within quotes in CSharp files (and removes the typed `$`).
 
 ## Features
 
-Autocorrect from quotes to backticks within javascript and typescript files
-![typing a dollar sign then open curly brace within a string converts the quotes to backticks](https://raw.githubusercontent.com/meganrogge/template-string-converter/master/demo.gif)
+Autocorrect from normal strings to interpolated strings (`$"Hello {world}"`) within CSharp files
+![typing a dollar sign then open curly brace within a string converts to interpolated string](https://raw.githubusercontent.com/corylulu/csharp-interpolated-string-converter/master/demo.gif)
 
 ## Extension Settings
 
